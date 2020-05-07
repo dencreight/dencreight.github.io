@@ -348,3 +348,126 @@ footer {
   margin: 0 auto;
   height: auto;
 }
+.work {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+}
+.work__title {
+  max-width: 60%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.work__title ._first {
+  font-size: 30px;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.work__title ._second {
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+.work__main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.work__main .work__card {
+  min-width: 280px;
+  max-width: 350px;
+  width: 350px;
+  position: relative;
+  height: 100px;
+  min-height: 300px;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 15px 0 15px 0;
+  margin-bottom: 30px;
+  transition: all ease-out 0.3s;
+}
+.work__main .work__card:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.work__main .work__card .title {
+  height: 15%;
+}
+.work__main .work__card .title span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.work__main .work__card .footer {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.our-works {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  /*
+    https://content.freelancehunt.com/snippet/73571/a05f3/970496/zapadnya-project.jpg
+    
+    https://content.freelancehunt.com/snippet/2a424/f4a0b/970523/agroprompack.jpg
+    
+    https://content.freelancehunt.com/snippet/087ea/f92fe/970554/yanina.jpg
+    
+    https://content.freelancehunt.com/snippet/e2176/85879/970515/mci-project.jpg
+    
+    https://content.freelancehunt.com/snippet/0de5c/18281/970519/boomerang-project.jpg
+    
+    https://content.freelancehunt.com/snippet/3dea7/aa1c3/970537/helpnet.jpg
+    
+    */
+}
+.our-works__title {
+  max-width: 60%;
+  margin: auto;
+}
+.our-works__title ._first {
+  font-size: 30px;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.our-works__title ._second {
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+.our-works__main {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.our-works__main .card {
+  display: block;
+  min-width: 280px;
+  max-width: 400px;
+  width: 300px;
+  height: auto;
+  margin-bottom: 30px;
+}
+.our-works__main .card img {
+  max-width: 100%;
+  max-height: 100%;
+}

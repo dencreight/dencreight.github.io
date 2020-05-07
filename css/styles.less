@@ -6,7 +6,12 @@
     font-family: 'Montserrat', serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
 }
 
@@ -277,6 +282,7 @@ header {
 
 .site {
     height: auto !important;
+
     .site__title {
         .set-title(60%, 30px, 20px, black, black);
         margin-bottom: 60px;
@@ -361,4 +367,104 @@ footer {
             height: auto;
         }
     }
+}
+
+.work {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    &__title {
+        .set-title(60%, 30px, 20px, black, black);
+        margin-bottom: 100px;
+    }
+
+    &__main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        
+        .work__card {
+            min-width: 280px;
+            max-width: 350px;
+            width: 350px;
+            position: relative;
+            height: 100px;
+            min-height: 300px;
+            background: rgba(0, 0, 0, 0);
+            text-align: center;
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 30px;
+            padding: 15px 0 15px 0;
+            margin-bottom: 30px;
+            transition: all ease-out 0.3s;
+            &:hover{
+                background: rgba(0,0,0,0.05);
+            }
+            .title{
+                height: 15%;
+                span{
+                    font-weight: bold;
+                    font-size: 20px;
+                    
+                }
+            }
+            .footer{
+                position: absolute;
+                bottom:30px;
+                left:0;
+                width: 100%;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 30px;
+                background: rgba(0,0,0,0.1);
+            }
+        }
+    }
+
+
+}
+
+.our-works{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    &__title{
+        .set-title(60%, 30px, 20px, black, black);
+    }
+    &__main{
+        margin-top: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        .card{
+            display: block;
+            min-width: 280px;
+            max-width: 400px;
+            width: 300px;
+            height: auto;
+            margin-bottom: 30px;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+    /*
+    https://content.freelancehunt.com/snippet/73571/a05f3/970496/zapadnya-project.jpg
+    
+    https://content.freelancehunt.com/snippet/2a424/f4a0b/970523/agroprompack.jpg
+    
+    https://content.freelancehunt.com/snippet/087ea/f92fe/970554/yanina.jpg
+    
+    https://content.freelancehunt.com/snippet/e2176/85879/970515/mci-project.jpg
+    
+    https://content.freelancehunt.com/snippet/0de5c/18281/970519/boomerang-project.jpg
+    
+    https://content.freelancehunt.com/snippet/3dea7/aa1c3/970537/helpnet.jpg
+    
+    */
 }
